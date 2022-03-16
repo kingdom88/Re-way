@@ -16,6 +16,10 @@
 
         }
 
+        .active {
+            color:#00A2ff !important;
+        }
+
         .navbar-expand-lg .navbar-nav .nav-link {
             padding-right: 2rem;
             padding-left: 0.5rem;
@@ -25,7 +29,7 @@
         .navbar-dark .navbar-nav .nav-link.active,
         .navbar-dark .navbar-nav .nav-link.show,
         .navbar-dark .navbar-nav .show>.nav-link {
-            color: #00A2ff;
+            color: #00A2ff !important;
         }
 
 
@@ -36,7 +40,7 @@
         }
 
         .far:hover {
-            color: #00A2FF
+            color: #00A2FF;
         }
 
         .fas:hover {
@@ -64,7 +68,7 @@
         }
 
         .navbar-dark .navbar-nav .nav-link:hover {
-            color: #00A2FF;
+            color: #00A2FF;;
         }
 
         .jumbotron {
